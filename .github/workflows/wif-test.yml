@@ -2,7 +2,7 @@ name: WIF Test
 on: [push]
 
 permissions:
-  #id-token: write   # REQUIRED: lets the workflow request an OIDC token
+  id-token: write   # REQUIRED: lets the workflow request an OIDC token
   contents: read
 
 jobs:
