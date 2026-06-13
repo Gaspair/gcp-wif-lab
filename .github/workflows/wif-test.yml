@@ -4,7 +4,7 @@ on: [push]
 permissions:
   id-token: write   # REQUIRED: lets the workflow request an OIDC token
   contents: read
-
+#
 jobs:
   test-wif:
     runs-on: ubuntu-latest
